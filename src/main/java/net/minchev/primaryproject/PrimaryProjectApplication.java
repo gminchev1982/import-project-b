@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan (basePackages = {"net.minchev.importproject"})
+@ComponentScan(basePackages = "net.minchev.importproject")
 public class PrimaryProjectApplication {
 
 	public static void main(String[] args) {

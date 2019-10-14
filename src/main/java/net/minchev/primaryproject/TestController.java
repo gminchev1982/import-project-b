@@ -1,8 +1,11 @@
 package net.minchev.primaryproject;
-import net.minchev;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
 public class TestController {
 
     public void AlaBala() {
-        ShopController sho = new ShopController();
+           // ShopController d = new net.minchev.importproject.ShopController()
     }
 }
